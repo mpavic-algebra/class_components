@@ -7,6 +7,9 @@ function App() {
     <>
       <ClassKomponenta title="Klasna komponenta"/>
       <FunctionKomponenta title="Funkcijska komponenta" ime="Matej" godine={40}/>
+      <FunctionKomponenta title="Funkcijska komponenta" ime="Sebastian" godine={25}>
+        <p>Dodatan opis...</p>
+      </FunctionKomponenta>
     </>
   )
 }
